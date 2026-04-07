@@ -52,7 +52,7 @@ variable "environment" {
 variable "app_version" {
   description = "Version label for the deployed application — used in tags and HTML response"
   type        = string
-  default     = "v3"
+  default     = "v1"
 }
 
 variable "ami_id" {
